@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-crimemap/static/css/main.b8fb0f7d.css",
+    "main.js": "/react-crimemap/static/js/main.8ae9878c.js",
+    "static/js/787.9e57a67d.chunk.js": "/react-crimemap/static/js/787.9e57a67d.chunk.js",
+    "index.html": "/react-crimemap/index.html",
+    "main.b8fb0f7d.css.map": "/react-crimemap/static/css/main.b8fb0f7d.css.map",
+    "main.8ae9878c.js.map": "/react-crimemap/static/js/main.8ae9878c.js.map",
+    "787.9e57a67d.chunk.js.map": "/react-crimemap/static/js/787.9e57a67d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8fb0f7d.css",
+    "static/js/main.8ae9878c.js"
+  ]
+}
