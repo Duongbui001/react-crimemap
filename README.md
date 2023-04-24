@@ -1,7 +1,7 @@
 
 Welcome to my web app about the London Crime Map! Based on data provided by the UK Police API, the app provides a convenient and interactive way for users to view updated crime data in London.
 
-The web app, built with the React framework, is user-friendly and intuitive, allowing users to easily navigate and explore crime data in London. Whether you live in London, are a tourist planning a trip, or are simply interested in crime trends in the city, my app has a wealth of information at your fingertips.
+The web app, built with the React framework, is user-friendly and intuitive, allowing users to easily navigate and explore crime data in London. 
 
 ## About
 The web app shows the number of crimes and their types for a selected month and location (postcode) within London. The interactive map lets you zoom in and out, and explore crime hotspots throughout the city. 
@@ -18,7 +18,7 @@ You can zoom in and out and click on the clusters to see more specific locations
 
 Data is dealt with using RESTful API and responded to by the below APIs:
 
-- Crime: https://data.police.uk/api
+- Crime: https://data.police.uk/docs/
 - Location: https://api.postcodes.io/
 
 ## Responsive
