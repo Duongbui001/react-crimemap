@@ -1,0 +1,29 @@
+.leaflet-container {
+    width: 100%;
+    height: 70vh;
+    border-radius: 1.5rem;
+  }
+  
+  #datecss {
+    padding-left: 10px;
+    display: inline;
+  }
+
+  .btn{
+    margin-left: 10px;
+    -webkit-border-radius: 18;
+    -moz-border-radius: 18;
+    border-radius: 18px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    background: #7c8387;
+    padding: 6px 15px 6px 15px;
+    text-decoration: none;
+    border-width: 0;
+  }
+  
+  .btn:hover {
+    background: #675D50;
+    text-decoration: none;
+  }
