@@ -29,4 +29,3 @@ This responsive web application provides interactive features, such as giving re
 
 I am always open to your feedback. Please find my contact information on the web page if you wish to contact me, such as if you have any ideas regarding further functionalities that could be added to the app.
 
-![image](https://user-images.githubusercontent.com/121313767/234014807-bb037229-9e40-458b-b32d-a78eeaac7cf8.png)
