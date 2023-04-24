@@ -1,71 +1,32 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my web app about the London Crime Map! Based on data provided by the UK Police API, the app provides a convenient and interactive way for users to view updated crime data in London.
 
-## Available Scripts
+The web app, built with the React framework, is user-friendly and intuitive, allowing users to easily navigate and explore crime data in London. Whether you live in London, are a tourist planning a trip, or are simply interested in crime trends in the city, my app has a wealth of information at your fingertips.
 
-In the project directory, you can run:
+## About
+The web app shows the number of crimes and their types for a selected month and location (postcode) within London. The interactive map lets you zoom in and out, and explore crime hotspots throughout the city. 
 
-### `npm start`
+One of the app’s most distinguishing features is its use of the UK Police API, which provides crime data directly from the UK police database. However, it should be noted that as the database is updated with a two-month delay, you will need to ensure you select a date at least two months prior to the current date.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How to Use
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Search: You need to select a postcode location and a date (month-year) in order for the app to work. 
+- Result: The app will return the number of crimes and their locations near the postcode input. 
+You can zoom in and out and click on the clusters to see more specific locations of where the crimes took place. Each crime is represented by the handcuff icon which, if clicked on, will pop up information relating to the specific crime. 
 
-### `npm test`
+## Retrieving Data
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Data is dealt with using RESTful API and responded to by the below APIs:
 
-### `npm run build`
+- Crime: https://data.police.uk/api
+- Location: https://api.postcodes.io/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Responsive
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This responsive web application provides interactive features, such as giving results based on selected dates and locations, clustering data, and pop-up information. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Sending Feedback
 
-### `npm run eject`
+I am always open to your feedback. Please find my contact information on the web page if you wish to contact me, such as if you have any ideas regarding further functionalities that could be added to the app.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# react-crimemap
+![image](https://user-images.githubusercontent.com/121313767/234014807-bb037229-9e40-458b-b32d-a78eeaac7cf8.png)
