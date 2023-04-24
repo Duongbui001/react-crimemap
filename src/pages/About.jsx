@@ -6,7 +6,7 @@ return (
 	<div>
 		<div className="container">
 	<p>Welcome to my web app about the London Crime Map! Based on data provided by the UK Police API, the app provides a convenient and interactive way for users to view updated crime data in London.</p>
-	<p>The web app, built with the React framework, is user-friendly and intuitive, allowing users to easily navigate and explore crime data in London. Whether you live in London, are a tourist planning a trip, or are simply interested in crime trends in the city, my app has a wealth of information at your fingertips.</p>
+	<p>The web app, built with the React framework, is user-friendly and intuitive, allowing users to easily navigate and explore crime data in London. </p>
 	<h3>📌📌 About</h3>
 	<p>The web app shows the number of crimes and their types for a selected month and location (postcode) within London. The interactive map lets you zoom in and out, and explore crime hotspots throughout the city. </p>
 	<p>One of the app’s most distinguishing features is its use of the UK Police API, which provides crime data directly from the UK police database. However, it should be noted that as the database is updated with a two-month delay, you will need to ensure you select a date at least two months prior to the current date.</p>
@@ -21,7 +21,7 @@ return (
 	<h3>📌📌 Responsive</h3>
 	<p>This responsive web application provides interactive features, such as giving results based on selected dates and locations, clustering data, and pop-up information. </p>
 	<h3>📌📌 Sending Feedback</h3>
-	<p>I am always open to your feedback. Please find my contact information on the web page if you wish to contact me, such as if you have any ideas regarding further functionalities that could be added to the app</p>
+	<p>I am always open to your feedback. Please find my contact information on the web page if you wish to contact me, such as if you have any ideas regarding further functionalities that could be added to the app.</p>
 		</div>
 		<div id="icon" class="copyright">
         <strong> &copy; Duong Bui</strong>
