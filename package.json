@@ -1,7 +1,7 @@
 {
   "name": "crime-map-app",
   "version": "0.1.0",
-  "homepage": "https://duongbui001.github.io/react-crimemap",
+  "homepage": "https://duongbui001.github.io/react-crimemap/#",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
